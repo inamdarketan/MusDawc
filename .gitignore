@@ -1,0 +1,47 @@
+# Dependencies and generated builds
+node_modules/
+dist/
+coverage/
+.vite/
+*.tsbuildinfo
+.turbo/
+.cache/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.mobileprovision
+secrets/
+.secrets/
+
+# Local user audio and project archives (audio must not be pushed by accident)
+*.wav
+*.wave
+*.mp3
+*.ogg
+*.flac
+*.m4a
+*.aac
+*.webm
+*.musdawc
+*.tapeworks
+user-audio/
+recordings/
+local-projects/
+
+# Tool output and OS metadata
+.DS_Store
+Thumbs.db
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+playwright-report/
+test-results/
