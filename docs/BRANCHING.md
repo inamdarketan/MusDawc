@@ -6,4 +6,4 @@
 - Run `npm ci` and `npm run verify` before merging. Review the diff and dependency audit before pushing.
 - Tag release commits after merging to `main`; do not develop directly on `main`.
 
-This repository currently uses `main` plus a working feature branch for the next editor phase. No remote or deployment is configured in this local checkout.
+This repository currently uses `main` plus `feature/autosave-editing` for the current editor phase. No remote or deployment is configured in this local checkout.
