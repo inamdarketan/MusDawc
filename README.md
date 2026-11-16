@@ -1,6 +1,6 @@
 # MusDawc
 
-MusDawc is a private, browser-based audio workshop for listening, shaping and arranging recordings. This project follows the TAPEWORKS_SPEC.md product brief while using MusDawc as the product name throughout. The `.musdawc` project format is reserved for local project portability; project-container import/export is not implemented yet.
+MusDawc is a basic, browser-based audio editing tool built for personal use. It helps you listen to, shape, and organize recordings on your own device. The `.musdawc` project format is reserved for local project portability; project-container import/export is not implemented yet.
 
 ## How it works
 
@@ -27,4 +27,8 @@ The project has no backend. No claim can guarantee safety against every threat: 
 
 ## Status
 
-This is the first usable slice of a multi-milestone DAW, not a complete implementation of every feature in the source brief. Current limitations and decisions are tracked in [docs/DECISIONS.md](docs/DECISIONS.md).
+MusDawc is a personal-use audio editor, not a full DAW. Current limitations and implementation decisions are tracked in [docs/DECISIONS.md](docs/DECISIONS.md).
+
+## License
+
+The project code is licensed under the MIT License; see [LICENSE](LICENSE). This permits others to use, modify, and redistribute the code subject to its notice conditions. It does not grant rights to audio recordings used with the app. See [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md) for the direct runtime dependency licenses.
