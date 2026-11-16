@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="960" viewBox="0 0 1440 960" role="img" aria-labelledby="title desc">
+  <title id="title">MusDawc local audio workshop and cassette workflow</title>
+  <desc id="desc">Illustrated overview of MusDawc: import a recording, shape it in the timeline, then keep it in the temporary cassette case or export a mix.</desc>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#211c18"/><stop offset="1" stop-color="#35271f"/></linearGradient>
+    <linearGradient id="deck" x2="0" y2="1"><stop stop-color="#f5ecd9"/><stop offset="1" stop-color="#d9c8aa"/></linearGradient>
+    <linearGradient id="wood" x2="1" y2="1"><stop stop-color="#8b6042"/><stop offset=".5" stop-color="#4c3226"/><stop offset="1" stop-color="#906344"/></linearGradient>
+    <linearGradient id="tape" x2="0" y2="1"><stop stop-color="#eee2c7"/><stop offset="1" stop-color="#b8a985"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#080605" flood-opacity=".32"/></filter>
+  </defs>
+  <rect width="1440" height="960" fill="url(#bg)"/>
+  <circle cx="1180" cy="80" r="300" fill="#b67645" opacity=".08"/>
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(74 38)">
+      <rect width="35" height="25" rx="6" fill="none" stroke="#cf8055" stroke-width="2"/><circle cx="11" cy="15" r="4" fill="none" stroke="#e7ba8b" stroke-width="2"/><circle cx="24" cy="15" r="4" fill="none" stroke="#e7ba8b" stroke-width="2"/>
+      <text x="49" y="18" fill="#eee4d5" font-size="21" font-weight="700">MusDawc</text><text x="49" y="38" fill="#c3a982" font-family="monospace" font-size="9" letter-spacing="2">YOUR PRIVATE AUDIO WORKSHOP</text>
+      <text x="1044" y="17" fill="#bcb09d" font-family="monospace" font-size="10" letter-spacing="1">● LOCAL · NO AUDIO UPLOAD</text>
+    </g>
+    <text x="74" y="127" fill="#bda782" font-family="monospace" font-size="11" letter-spacing="2">LISTEN · SHAPE · KEEP</text>
+    <text x="74" y="168" fill="#eee4d5" font-family="Georgia, serif" font-size="35">A little room for <tspan fill="#e7a86e" font-style="italic">your sound.</tspan></text>
+    <g filter="url(#shadow)">
+      <rect x="74" y="198" width="1292" height="247" rx="16" fill="url(#deck)" stroke="#fff" stroke-opacity=".28"/>
+      <text x="101" y="228" fill="#665640" font-family="monospace" font-size="10" letter-spacing="1.6">MUSDAWC · ANALOG PLAYBACK DECK</text>
+      <circle cx="1328" cy="224" r="5" fill="#789060"/><text x="1309" y="242" fill="#837158" font-family="monospace" font-size="8" text-anchor="end">READY</text>
+      <rect x="109" y="249" width="665" height="153" rx="12" fill="#302b25" stroke="#76664d"/>
+      <rect x="126" y="263" width="631" height="47" rx="4" fill="#e9ddc0"/>
+      <path d="M126 274H757M126 286H757M126 298H757" stroke="#bca782" stroke-opacity=".5"/>
+      <text x="146" y="282" fill="#554633" font-family="Georgia, serif" font-size="18" font-style="italic">Evening raga — alap take</text>
+      <text x="146" y="301" fill="#806c4e" font-family="monospace" font-size="8" letter-spacing="1">SIDE A · PERSONAL PRACTICE</text>
+      <rect x="126" y="318" width="631" height="69" rx="30" fill="#171614" stroke="#816e4d"/>
+      <circle cx="294" cy="352" r="28" fill="#514536" stroke="#ad9364" stroke-width="4"/><circle cx="294" cy="352" r="9" fill="#cdb98c"/>
+      <circle cx="588" cy="352" r="28" fill="#514536" stroke="#ad9364" stroke-width="4"/><circle cx="588" cy="352" r="9" fill="#cdb98c"/>
+      <path d="M322 352H560" stroke="#c3a16b" stroke-width="3"/>
+      <g transform="translate(820 257)"><text fill="#6b5b43" font-family="monospace" font-size="9" letter-spacing="1">TAPE COUNTER</text><rect y="16" width="350" height="54" rx="5" fill="#252821" stroke="#70634c" stroke-width="5"/><text x="175" y="55" fill="#b3d18b" font-family="monospace" font-size="31" text-anchor="middle">03:42<tspan font-size="13">.8</tspan></text><text x="4" y="91" fill="#75684f" font-family="monospace" font-size="9">L</text><rect x="20" y="82" width="145" height="9" rx="3" fill="#25251f" stroke="#75664e"/><rect x="21" y="83" width="101" height="7" rx="2" fill="#799665"/><text x="180" y="91" fill="#75684f" font-family="monospace" font-size="9">R</text><rect x="196" y="82" width="145" height="9" rx="3" fill="#25251f" stroke="#75664e"/><rect x="197" y="83" width="117" height="7" rx="2" fill="#bc9453"/></g>
+      <path d="M109 414H1331" stroke="#9c8a6b" stroke-opacity=".5"/>
+      <g transform="translate(112 422)" fill="#62533d" font-family="monospace" font-size="8" letter-spacing=".8"><text x="0">⏮ REW</text><text x="100">■ STOP</text><text x="206" fill="#26736b">▶ PLAY</text><text x="320" fill="#bf4634">● REC</text><text x="1015">PERSONAL STUDIO</text></g>
+    </g>
+    <g filter="url(#shadow)">
+      <rect x="74" y="467" width="1292" height="178" rx="12" fill="#f0e6d2"/>
+      <text x="101" y="500" fill="#8d7658" font-family="monospace" font-size="9" letter-spacing="1.4">EDIT WITHOUT LOSING YOUR ORIGINAL</text>
+      <text x="101" y="526" fill="#3b3024" font-family="Georgia, serif" font-size="21">Timeline editor</text>
+      <g transform="translate(102 544)"><rect width="1235" height="77" rx="4" fill="#e8ddc7" stroke="#cbbda4"/><path d="M174 0V77M350 0V77M526 0V77M702 0V77M878 0V77M1054 0V77" stroke="#b7a98f" stroke-opacity=".6"/><text x="13" y="23" fill="#5f513c" font-family="monospace" font-size="9">RAGA ALAP</text><text x="13" y="42" fill="#95836a" font-family="monospace" font-size="8">1 CH · 03:42</text><rect x="190" y="13" width="535" height="51" rx="5" fill="#497d70" stroke="#285f56"/><path d="M200 39l10 -8 10 16 10 -24 10 14 10 -9 10 18 10 -27 10 18 10 -12 10 22 10 -26 10 18 10 -8 10 18 10 -27 10 19 10 -13 10 20 10 -23 10 14 10 -8 10 17 10 -23 10 16 10 -11 10 19 10 -25 10 15 10 -9 10 17 10 -21 10 13 10 -7 10 18 10 -20 10 11 10 -6 10 14 10 -18 10 12 10 -7 10 15 10 -17 10 10 10 -6 10 13 10 -15 10 8 10 -5 10 12 10 -13 10 8 10 -4 10 10 10 -11 10 7 10 -3 10 9 10 -9 10 6 10 -3 10 8 10 -8 10 5" fill="none" stroke="#f0e6d2" stroke-width="2" stroke-linecap="round"/><rect x="746" y="13" width="340" height="51" rx="5" fill="#bd7654" stroke="#9e5b40"/><path d="M756 39l10 -10 10 20 10 -25 10 17 10 -8 10 14 10 -22 10 13 10 -8 10 18 10 -19 10 14 10 -7 10 16 10 -21 10 12 10 -5 10 15 10 -17 10 10 10 -6 10 13 10 -14 10 8 10 -4 10 12 10 -10 10 7 10 -3 10 9 10 -7 10 5 10 -2 10 7" fill="none" stroke="#fff0d8" stroke-width="2" stroke-linecap="round"/><path d="M526 0V77" stroke="#cb4c3d" stroke-width="2"/><path d="M520 0l6 8 6-8" fill="#cb4c3d"/><text x="190" y="75" fill="#83745e" font-family="monospace" font-size="7">0:00</text><text x="1250" y="75" fill="#83745e" font-family="monospace" font-size="7">FIT · ZOOM · FULL SCREEN</text></g>
+    </g>
+    <g filter="url(#shadow)">
+      <rect x="74" y="667" width="815" height="235" rx="12" fill="#eee3ce"/>
+      <text x="101" y="701" fill="#8d7658" font-family="monospace" font-size="9" letter-spacing="1.3">A TEMPORARY HOME FOR YOUR AUDIO</text><text x="101" y="728" fill="#3b3024" font-family="Georgia, serif" font-size="21">Cassette case</text>
+      <rect x="101" y="747" width="760" height="128" rx="9" fill="url(#wood)" stroke="#35251e"/>
+      <text x="119" y="766" fill="#d0ad7e" font-family="monospace" font-size="7" letter-spacing="1.1">YOUR PERSONAL TAPE LIBRARY</text>
+      <rect x="112" y="777" width="738" height="77" rx="5" fill="#2c231e" stroke="#291d18"/>
+      <g transform="translate(127 784)">
+        <g><rect width="186" height="60" rx="6" fill="url(#tape)" stroke="#5c4c38"/><rect x="8" y="7" width="170" height="17" rx="2" fill="#eee4ca"/><text x="14" y="19" fill="#514331" font-size="8" font-weight="700">Evening raga — alap take</text><rect x="26" y="29" width="134" height="23" rx="7" fill="#29231e" stroke="#766447"/><circle cx="61" cy="40" r="8" fill="#383027" stroke="#c7aa76" stroke-width="3"/><circle cx="125" cy="40" r="8" fill="#383027" stroke="#c7aa76" stroke-width="3"/><path d="M70 40H116" stroke="#c7aa76" stroke-width="2"/></g>
+        <g transform="translate(199 0)"><rect width="186" height="60" rx="6" fill="#bdc8ad" stroke="#4e513e"/><rect x="8" y="7" width="170" height="17" rx="2" fill="#e5e4cd"/><text x="14" y="19" fill="#514331" font-size="8" font-weight="700">Voice memo</text><rect x="26" y="29" width="134" height="23" rx="7" fill="#29231e" stroke="#766447"/><circle cx="61" cy="40" r="8" fill="#383027" stroke="#91b5a2" stroke-width="3"/><circle cx="125" cy="40" r="8" fill="#383027" stroke="#91b5a2" stroke-width="3"/><path d="M70 40H116" stroke="#91b5a2" stroke-width="2"/></g>
+        <path d="M401 30h24" stroke="#e3b873" stroke-width="2"/><path d="m420 24 7 6-7 6" fill="none" stroke="#e3b873" stroke-width="2"/>
+        <text x="437" y="27" fill="#ead8b7" font-family="monospace" font-size="8" letter-spacing=".7">DROP AUDIO</text><text x="437" y="41" fill="#b19b7e" font-size="8">or browse to add tapes</text>
+      </g>
+      <text x="118" y="869" fill="#d2b48b" font-family="monospace" font-size="7" letter-spacing="1">MusDawc · TAPE CASE</text><text x="833" y="869" fill="#d2b48b" font-family="monospace" font-size="7" text-anchor="end" letter-spacing="1">CLICK A TAPE TO OPEN &amp; EDIT</text>
+    </g>
+    <g filter="url(#shadow)"><rect x="914" y="667" width="452" height="235" rx="12" fill="#eee3ce"/><text x="943" y="701" fill="#8d7658" font-family="monospace" font-size="9" letter-spacing="1.3">YOUR WORKFLOW</text><text x="943" y="728" fill="#3b3024" font-family="Georgia, serif" font-size="21">A few simple moves</text>
+      <g transform="translate(943 752)"><circle cx="15" cy="15" r="14" fill="#3d7168"/><text x="15" y="19" fill="#fff2d8" text-anchor="middle" font-size="11" font-weight="700">1</text><text x="43" y="13" fill="#4c3c2a" font-size="12" font-weight="700">Bring in a recording</text><text x="43" y="29" fill="#817158" font-size="9">Drop it in the case or open it directly.</text>
+      <circle cx="15" cy="64" r="14" fill="#bd7654"/><text x="15" y="68" fill="#fff2d8" text-anchor="middle" font-size="11" font-weight="700">2</text><text x="43" y="62" fill="#4c3c2a" font-size="12" font-weight="700">Shape the take</text><text x="43" y="78" fill="#817158" font-size="9">Trim, split, fade, pan, and arrange.</text>
+      <circle cx="15" cy="113" r="14" fill="#b88c4c"/><text x="15" y="117" fill="#fff2d8" text-anchor="middle" font-size="11" font-weight="700">3</text><text x="43" y="111" fill="#4c3c2a" font-size="12" font-weight="700">Keep or export</text><text x="43" y="127" fill="#817158" font-size="9">Make a WAV mix or a ZIP collection.</text></g>
+    </g>
+    <text x="74" y="933" fill="#bca886" font-family="monospace" font-size="9" letter-spacing="1.3">LOCAL AUDIO · NO ACCOUNT · NO TRACKING</text><text x="1366" y="933" fill="#bca886" font-family="monospace" font-size="9" text-anchor="end" letter-spacing="1.3">MADE FOR LISTENING, MADE TO STAY YOURS</text>
+  </g>
+</svg>
