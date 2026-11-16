@@ -1,12 +1,12 @@
 # MusDawc
 
-MusDawc is a basic, browser-based audio editing tool built for personal use. It helps you listen to, shape, and organize recordings on your own device. The `.musdawc` project format is reserved for local project portability; project-container import/export is not implemented yet.
+MusDawc is the basic version of a browser-based audio editing tool, built for personal use. It helps you listen to, shape, and organize recordings on your own device. The `.musdawc` project format is reserved for local project portability; project-container import/export is not implemented yet.
 
 ## How it works
 
-![Illustrated overview of the MusDawc audio deck, timeline editor, and temporary cassette case](docs/images/musdawc-workflow.svg)
+![High-resolution screenshot of the MusDawc audio deck, timeline editor, and cassette case](docs/images/musdawc-screenshot.png)
 
-This illustrated overview shows the basic flow: bring in a recording, edit it on the timeline, then export a WAV mix or keep the original in a temporary cassette collection.
+Bring in a recording, edit it on the timeline, then export a WAV mix or keep the original in a temporary cassette collection.
 
 ## Run locally
 
