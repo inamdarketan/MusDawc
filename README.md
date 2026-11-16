@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-The current editor can import WAV, MP3, OGG, FLAC and M4A when the browser decoder supports the format, record a microphone take, play and edit clips (drag to arrange, split, trim, duplicate, reverse, remove), undo/redo edits, zoom and scroll the timeline, and open the timeline in fullscreen. Per-take controls include gain, fades, pan, mute and solo. Sessions autosave to local IndexedDB, with a recovery prompt on the next visit. The listening rack previews warmth, echo, air and compression; it also includes a selectable Sa/Pa tanpura drone. Export renders a 24-bit stereo WAV with clip fades, gain, pan, mute/solo and the listening rack. All audio stays in the browser. No account, analytics, or audio upload is used.
+The editor imports WAV, MP3, OGG, FLAC and M4A when the browser decoder supports the format, records microphone takes, and supports clip arrangement, split, trim, duplicate, reverse, undo/redo, timeline zoom and fullscreen. Per-take controls include gain, fades, pan, mute and solo. Sessions autosave to local IndexedDB with a recovery prompt. Export renders a 24-bit stereo WAV. The temporary Cassette Case accepts audio by drag and drop, organizes selected tapes into named folders, and downloads each folder as a ZIP. Cassette Case contents live only in memory and clear on reload; ZIP export is limited to 200 MB per folder. All audio stays in the browser.
 
 ## Security and privacy
 

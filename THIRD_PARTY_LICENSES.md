@@ -6,6 +6,7 @@ MusDawc currently uses these direct production dependencies:
 |---|---|
 | React | MIT |
 | React DOM | MIT |
+| fflate | MIT |
 
 Development/build tools are pinned in `package-lock.json`. Their transitive license inventory has not yet been generated or reviewed. Generate and check an SBOM/license report before publishing a release.
 
