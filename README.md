@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-The current editor can import WAV, MP3, OGG, FLAC and M4A when the browser decoder supports the format, record a microphone take, play and edit clips (drag to arrange, split, trim, duplicate, reverse, remove), undo/redo edits, zoom and scroll the timeline, and open the timeline in fullscreen. It also previews tape warmth/room/air, plays a simple Sa/Pa tanpura drone, and exports a 24-bit stereo WAV mix. Audio processing happens in the browser. No account, analytics, or audio upload is used.
+The current editor can import WAV, MP3, OGG, FLAC and M4A when the browser decoder supports the format, record a microphone take, play and edit clips (drag to arrange, split, trim, duplicate, reverse, remove), undo/redo edits, zoom and scroll the timeline, and open the timeline in fullscreen. Per-take controls include gain, fades, pan, mute and solo. Sessions autosave to local IndexedDB, with a recovery prompt on the next visit. The listening rack previews warmth, echo, air and compression; it also includes a selectable Sa/Pa tanpura drone. Export renders a 24-bit stereo WAV with clip fades, gain, pan, mute/solo and the listening rack. All audio stays in the browser. No account, analytics, or audio upload is used.
 
 ## Security and privacy
 
