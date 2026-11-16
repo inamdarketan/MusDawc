@@ -2,6 +2,12 @@
 
 MusDawc is a private, browser-based audio workshop for listening, shaping and arranging recordings. This project follows the TAPEWORKS_SPEC.md product brief while using MusDawc as the product name throughout. The `.musdawc` project format is reserved for local project portability; project-container import/export is not implemented yet.
 
+## How it works
+
+![Illustrated overview of the MusDawc audio deck, timeline editor, and temporary cassette case](docs/images/musdawc-workflow.svg)
+
+This illustrated overview shows the basic flow: bring in a recording, edit it on the timeline, then export a WAV mix or keep the original in a temporary cassette collection.
+
 ## Run locally
 
 Requires Node.js 20.19 or newer and npm.
